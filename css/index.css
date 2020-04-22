@@ -1,0 +1,105 @@
+@font-face /* 바탕 레귤러 */ {
+  font-family: HAN;
+  src: url(../font/HANBatang.ttf);
+}
+
+@font-face /* 바탕 볼드 */ {
+  font-family: HAN_bold;
+  src: url(../font/HANBatangB.ttf);
+}
+
+body {
+  font-family: HAN;
+  -webkit-font-smoothing: antialiased;
+}
+
+.home_01 {
+  width: 100vw;
+  height: 100vh;
+  background-color: #b4c1c7;
+  padding: 120px 0 200px;
+  box-sizing: border-box;
+}
+
+.home_01_wrap {
+  width: 100%;
+  height: 100%;
+}
+
+.home_01_main_title_wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 8%;
+}
+
+.home_01_main_title {
+  font-family: HAN_bold;
+  font-size: 24px;
+  color: #6b7180;
+  text-align: center;
+}
+
+.home_01_day {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: white;
+  border: 2px solid #6b7180;
+  display: flex;
+  justify-content: center;
+  z-index: 3;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+}
+
+.home_01_day p {
+  line-height: 50px;
+  text-align: center;
+  font-size: 18px;
+  color: #6b7180;
+}
+
+.home_01_bg {
+  background-image: url(../img/wedding_1.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border-top: 2px solid #6b7180;
+}
+
+.home_01_title {
+  text-align: center;
+  color: #6b7180;
+  font-size: 24px;
+  font-family: HAN_bold;
+  margin-top: 10px;
+}
+
+.hand {
+  width: 100px;
+  height: 100px;
+  vertical-align: middle;
+}
+
+.home_01_subtitle {
+  text-align: center;
+  color: rgb(243, 243, 243);
+  font-size: 16px;
+  font-family: HAN_bold;
+}
+
+.home_01_text {
+  text-align: center;
+  color: #6b7180;
+  font-size: 14px;
+  font-family: HAN_bold;
+  margin-top: 20px;
+}
